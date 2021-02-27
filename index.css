@@ -1,0 +1,51 @@
+li{
+  display: inline-block;
+
+}
+h1{
+  font: bold;
+  color: greenyellow;
+  size: large;
+}
+ul{
+  text-align: right;
+}
+#list li{
+  list-style: none;
+}
+#title{
+  background-image: url('https://media-cdn.tripadvisor.com/media/photo-s/0c/15/83/7e/pick-of-the-crop-timmins.jpg');
+}
+.Portofolio{
+  display:block;
+  justify-content: center;
+}
+.Portofolio img {
+  text-align: center;
+}
+
+/* id classes */
+#title{
+  background-color: grey;
+  text-align: center;
+}
+.Background-img{
+  text-align: center;
+  background-color: orange;
+}
+html,body{
+font-family: 'Libre Baskerville', sans-serif;
+}
+#Our-Team{
+  background-color: lightseagreen;
+}
+
+footer{
+  background-color: Aquamarine;
+  text-align: center;
+}
+@media only screen and (max-resolution: 150dpi) and (max-width: 480px){
+  body{
+    font-size: 20px;
+  }
+}
